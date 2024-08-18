@@ -1,0 +1,81 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+#class{
+    margin-top: 5rem;
+}
+
+#bground{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#weather-icon {
+    width: 100%;
+    height: 50%;
+}
+
+#btn:hover {
+    background-color: #1b3d4e;
+}
+
+#city-name{
+    font-size: 40px;
+}
+
+#city-name:hover{
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+#date{
+    font-size: 20px;
+}
+
+#temperature{
+    font-size: 40px;
+}
+
+#wind-speed{
+    font-size: 20px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 1rem;
+    }
+
+    #class{
+        margin-top: 0rem;
+    }
+
+    h1{
+        font-size: medium;
+    }
+
+    #city-name {
+        font-size: 30px;
+    }
+
+    #date, #wind-speed {
+        font-size: 16px;
+    }
+
+    #temperature {
+        font-size: 30px;
+    }
+
+    #weather-icon {
+        width: 80%;
+        height: auto;
+    }
+
+    #bground {
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+
+
+}
